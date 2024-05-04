@@ -1,3 +1,4 @@
+/*
 resource "google_storage_bucket" "bkt-df-metadata-chris" {
   name          = "bkt-df-metadata-chris2"
   location      = "NORTHAMERICA-NORTHEAST2"
@@ -27,3 +28,4 @@ resource "google_storage_bucket_object" "user_csv" {
   source = "C:\\MyPrograms\\GCP\\BigQuery\\GCS_TO_BQ\\user.csv"
   bucket = google_storage_bucket.chris-landing-zone.name
 }
+*/

@@ -9,7 +9,7 @@ terraform {
 
 provider "google" {
   # Configuration options
-  credentials = file("C:\\MyPrograms\\GCP\\my-second-project-418213-c4584d61b2a8.json")
+  credentials = file("C:\\MySoftware\\my-second-project-418213-93e3cfe420ae.json")
   project = "my-second-project-418213"
   region = "northamerica-northeast2"
 }

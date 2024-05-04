@@ -1,3 +1,4 @@
+/*
 resource "google_dataflow_job" "testjob" {
   name   = "testjob2"
   region = "northamerica-northeast2"
@@ -17,3 +18,4 @@ resource "google_dataflow_job" "testjob" {
     }  
   
 }
+*/
